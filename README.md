@@ -11,8 +11,8 @@ variable.
 The repo contains the following directories:
 
 * `src` - the sources
-* `applet` - original binaries of Jasper 1.1j
-* `applet-fixed` - binaries of this fork (including the scaling fix)
+* `archive/applet` - original binaries of Jasper 1.1j
+* `archive/applet-fixed` - binaries of this fork (including the scaling fix)
 
 To run the emulator locally:
 
