@@ -14,7 +14,11 @@ The repo contains the following directories:
 * `applet` - original binaries of Jasper 1.1j
 * `applet-fixed` - binaries of this fork (including the scaling fix)
 
-To run the emulator:
+To run the emulator locally:
 
     cd archive/applet-fixed
     appletviewer test.html
+
+You can try the [Exolon][] game running in this emulator online.
+
+[Exolon]: http://begoon.github.com/jasper
