@@ -22,3 +22,5 @@ To run the emulator locally:
 You can try the [Exolon][] game running in this emulator online.
 
 [Exolon]: http://begoon.github.com/jasper
+
+![](https://raw.github.com/begoon/jasper/master/archive/screenshots/exolon-in-jasper.png)
