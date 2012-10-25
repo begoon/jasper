@@ -493,13 +493,13 @@ public class Spectrum extends Z80 {
 		if ( image == null ) {
 			Color	colors[] = brightColors;
 			
-			image = comp.createImage( 4, 1 );
+			image = comp.createImage( 4*pixelScale, 1*pixelScale );
 			Graphics g = image.getGraphics();
 
 			for ( int i = 0; i < 4; i++ ) {
 				int col = ((pattern & (1<<i)) == 0) ? pap : ink;
 				g.setColor( colors[ col ] );
-				g.fillRect( (3-i), 0, 1, 1 );
+				g.fillRect( (3-i)*pixelScale, 0*pixelScale, 1*pixelScale, 1*pixelScale );
 			}
 
 			patternMap.put( imageKey, image );
@@ -611,7 +611,7 @@ public class Spectrum extends Z80 {
 					image2 = getImage( parent, attr, newPixels2 );
 					imageMap[ imageMapEntry2 ] = image2;
 				}
-				bufferGraphics.drawImage( image2, X+4, Y, null );
+				bufferGraphics.drawImage( image2, X+4*pixelScale, Y, null );
 			}
 
 			int        newAddr = next[ addr ];
@@ -1439,3 +1439,4 @@ public class Spectrum extends Z80 {
 		}
 	}
 }
+
