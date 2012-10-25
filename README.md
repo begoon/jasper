@@ -1,11 +1,11 @@
 Sinclair ZX Spectrum 48 emulator in Java
 ========================================
 
-This is a fork of original version of Jasper 1.1j by
+This is a fork of the original version of Jasper 1.1j by
 Adam Davidson and Andrew Pollard. Previously it was available at
 http://spectrum.lovely.net/, but currently this website is unavailable.
 
-Also this fork includes a fix allowing screen scaling via a `pixelScale`
+Also this fork includes a fix allowing screen scaling using the `pixelScale`
 variable.
 
 The repo contains the following directories:
@@ -16,5 +16,5 @@ The repo contains the following directories:
 
 To run the emulator:
 
-    cd applet-fixed # or "cd applet"
+    cd archive/applet-fixed
     appletviewer test.html
